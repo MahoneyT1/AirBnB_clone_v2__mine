@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 # a Bash script that sets up your web servers for the deployment of web_static
 
@@ -26,4 +25,3 @@ sudo sed -i 's|^.*server_name.*$|&\n\n\tlocation /hbnb_static {\n\t\talias /data
 sudo service nginx restart
 
 exit 0
-
